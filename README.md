@@ -9,7 +9,6 @@ A React Native mobile application with Flask backend that analyzes medical repor
 - 🤖 **AI-Powered Explanations** - Uses LLM to generate patient-friendly explanations
 - 🏥 **Multi-Report Types** - Handles laboratory and radiology reports
 - 📊 **Structured Output** - Organized findings with values, units, and descriptions
-- 💾 **Knowledge Base Integration** - Medical knowledge base with semantic search
 - 🔒 **File Validation** - Size limits and type checking for security
 
 ## Architecture
