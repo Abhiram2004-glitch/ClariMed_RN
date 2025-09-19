@@ -6,6 +6,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import HomeScreen from './screens/HomeScreen';
 import AnalyticsScreen from './screens/AnalyticsScreen';
 import ProfileScreen from './screens/profile';
+import ChatScreen from './screens/ChatScreen';
 const Tab = createBottomTabNavigator();
 
 export default function TabNavigator() {
@@ -39,7 +40,7 @@ export default function TabNavigator() {
         />
         <Tab.Screen
           name="Chat"
-          component={ProfileScreen}
+          component={ChatScreen}
           options={{
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="chatbubble-ellipses-outline" size={size} color={color} />
